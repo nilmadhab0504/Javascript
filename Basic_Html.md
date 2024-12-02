@@ -138,3 +138,18 @@ An Html Element is defined by a start tag, some content and an end tag.
 - **`<aria-*>`**: Attributes for accessibility.
 - **`<title>`**: Describes the document or individual elements.
 
+# Html Attributes
+
+Html Attributes provides additional information about the html element, all html element can have attributes.
+Attributes are always specified in the Start tag and they are usually come with key value pairs 
+
+## Example 
+
+```html
+
+<a href="https://example.com"> Example Website Link </a>
+<img src="img.jpg" width="400" height="400" alt="example image">
+
+```
+ in the `<a>` ttag href is an attribute similarly in the `<img>` tag src, width, height and alt all are attributes
+
