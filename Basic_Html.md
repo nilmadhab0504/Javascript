@@ -17,3 +17,8 @@ The visible part of the Html is between `<body>` and `</body>`
 
 </body>
 </html>
+```
+
+# Html Elements
+
+An Html Element is defined by a start tag, some content and an end tag.
