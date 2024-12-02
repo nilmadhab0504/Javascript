@@ -19,6 +19,20 @@ The visible part of the Html is between `<body>` and `</body>`
 </html>
 ```
 
-# Html Elements
+# Html Element
 
 An Html Element is defined by a start tag, some content and an end tag.
+
+`<tagname>` content `</tagname>`
+
+ ## Html Element
+ the `<html>` element is the root element and it difines the whole html document
+
+ ## head element
+ the `<head>` element in an HTML document contains the metadata and links to resourses that are not directly displayed on the webpage but are essencial for the functionality and the 
+ presentation.
+ it provieds the information about title, character set, style scripts and the other metadatas
+
+ ## Body Element
+
+ 
