@@ -4,7 +4,7 @@ All Html Document must start with a **document type declaration** : `<!DOCUMENT 
 The Html document itself begins with the `<html>` and ends with `</html>`
 The visible part of the Html is between `<body>` and `</body>`
 
-##Example of a Basic HTML Document 
+## Example of a Basic HTML Document 
 
 ```html
 <!DOCTYPE html>
