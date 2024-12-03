@@ -32,4 +32,29 @@ let y=x(3,4);
 
 ## Hoisting
 Hoisting in javascript's default behaviour of moving all the declarations to the top of the current scope ( to the top of the script or the current function )
+Hoisting applies to variable declaration and the function declarations, because of that javascript function can be called before they are declared.
+
+## Self-Invoking Function
+Function expressions can be made self-invoking.
+A self invoking expressions will execute automatically 
+adding parentheses around the function make it self-invoking
+
+## Example
+```html
+(function(){
+let x=10;
+}
+)();
+```
+
+## Arrow Function
+- Arrow function allows a short syntax for writing an function, you don't need the function and return keywords and he curly brackets.
+- Arrow functions do not have their own this. they are not well suited for the object methods.
+- Arrow functions are not hoisted, they must be defined before use.
+- You can only omit the curly brackets and the return keyword if the function is a single statement. Because of this it is good practice to always keep the brackets and the return keyword.
+
+### Example
+
+
+
 
