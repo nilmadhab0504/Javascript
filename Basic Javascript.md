@@ -4,7 +4,7 @@
 - JavaScript code can be written directly in the HTML files using `<script>` tags or as separate `.js` files.
 - Browsers use javascript engines (V8 in Chrome) to interpret and execute the code.
 
-## `<script>` Tag
+## Insert Javascript in Html Document using `<script>` Tag
 
 In HTML, Javascript code inserted between `<script>` and `</script>` tags.
 we can place any number of `<script>` in HTML Document, Scripts can be placed in both `<head>` and `<body>` tags
@@ -35,5 +35,12 @@ document.getElementById("Heading").innerHtml="Heading Chnages";
 ```html
 <script src="Javascript.js"></src>
 ```
+## Output in JavaScript
 
+Javascript can display data in different ways 
+
+- writing into an Html Element using innerHTML.
+- writing into the Html output using document.write().
+- writinng into an alart bon using window.alert().
+- writing into the browser console using console.log().
 
