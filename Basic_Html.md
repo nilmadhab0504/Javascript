@@ -31,7 +31,6 @@ An Html Element is defined by a start tag, some content and an end tag.
 
 ## 1. Structural Elements
 - **`<html>`**: The root element of an HTML document.
-  `<html>` element is the root element of an Html Document, it represent the top level container for all the html elements and content in the document.
 - **`<head>`**: Contains metadata, links, and scripts.
 - **`<body>`**: Contains the visible content of the webpage.
 - **`<title>`**: Specifies the title of the webpage.
