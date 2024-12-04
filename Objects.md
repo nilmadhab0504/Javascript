@@ -1,5 +1,6 @@
 # Objects 
-Objects are collection of key value pairs where keys are string and values are any data type inluding other objects, array, functions.
+Objects are collection of key value pairs where keys are string and values are any data type inluding other objects, arrays, functions.
+
 objects are used to represent and structure data as well as encapsulate behavior through methods.
 
 ## How to Define an Object
