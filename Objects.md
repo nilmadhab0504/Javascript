@@ -1,7 +1,7 @@
 # Objects 
 Objects are collection of key value pairs where keys are string and values are any data type inluding other objects, arrays, functions.
 
-objects are used to represent and structure data as well as encapsulate behavior through methods.
+Objects are used to represent and structure data as well as encapsulate behavior through methods.
 
 ## How to Define an Object
 in javascript we can define objects 
@@ -53,7 +53,7 @@ return this.firstName + " " + this.lastName;
 
 ```
 
-### JavaScript Objects are mutble, they are addresed by reference not by value
+### JavaScript Objects are mutable, they are addresed by reference not by value
 
 ```html
 const person = {
@@ -80,7 +80,36 @@ age : 24
 delete person[age];
 delete person.lastName;
 ```
+## Adding a method to an Object
 
+```html
+cosnt person = { firstName: "Nil" , lastName : "Tewari" }
+person.name = function(){
+return this.firstName + " " + this.lastName;
+}
+
+```
+
+## tpUpperCase() Method
+it user to convert a text to uppercase
+```html
+cosnt person = { firstName: "Nil" , lastName : "Tewari" }
+person.name = function(){
+return (this.firstName + " " + this.lastName).toUpperCase();
+}
+
+```
+
+## JSON.stringify()
+
+Javascript objects can be converted to a string with json method JSON.stringify()
+
+```html
+cosnt person = { firstName: "Nil" , lastName : "Tewari" }
+let personString = JSON.stringify(person)
+console.log(personString) //{ firstName: "Nil" , lastName : "Tewari" }
+
+```
 
 
 
