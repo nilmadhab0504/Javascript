@@ -111,6 +111,29 @@ console.log(personString) //{ firstName: "Nil" , lastName : "Tewari" }
 
 ```
 
+## JavaScript Object Constructor
+
+```html
+function Person(first,last,age){
+this.firstName = first;
+this.lastName = last;
+this.age = age;
+this.country = "India"
+this.fullName = function() {
+return this.firstName + "  " + this.lastName;
+};
+}
+const person = new Person("nil", "tewari", 24);
+
+// to add some property or method in the constructor
+
+Person.prototype.language = "Bengali";
+Person.prototype.changeName = function (name){
+this.firstName=name;
+}
+
+```
+
 
 
 
