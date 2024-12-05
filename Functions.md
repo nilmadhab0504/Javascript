@@ -48,7 +48,7 @@ let x=10;
 ```
 
 ## Arrow Function
-- Arrow function allows a short syntax for writing an function, you don't need the function and return keywords and he curly brackets.
+- Arrow function allows a short syntax for writing an function, you don't need the function and return keywords and the curly brackets.
 - Arrow functions do not have their own this. they are not well suited for the object methods.
 - Arrow functions are not hoisted, they must be defined before use.
 - You can only omit the curly brackets and the return keyword if the function is a single statement. Because of this it is good practice to always keep the brackets and the return keyword.
