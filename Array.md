@@ -46,3 +46,22 @@ function myFunction(value, index, array) {
   return value > 18;
 }
 ```
+
+## Sort
+
+### sort() method sort the array 
+### toSorted() method create a new sorted array without aultering the original array
+### reverse() resverse the array 
+### toReversed() create a new reversed array without aultering the original array
+
+By Default the sort() function sort values as string, this works well for strings but produce incorrect results for numbers.
+we can fix this by providing the compare function
+
+```html
+const array=[1,4,3,2,8]
+array.sort(function(a,b){
+return a-b;
+})
+
+```
+
