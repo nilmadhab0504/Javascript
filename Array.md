@@ -33,3 +33,16 @@ const resArr = arr.flat() //[1,2,3,4,5,6];
 const arr = [1,2,3,4];
 const resArr = arr.flatMap(x=>[x,x*10]) // [1,10,2,20,3,30,4,40]
 ```
+
+### indexOf() method search the array for an element value and return its position and return -1 if the value not present
+### lastIndexOf() method search the array for an element value and return the last position of the value
+### includes() it also search element in the array and return boolean value true/false
+### find() and findIndex() these two method return the value and the index of the element that satisfy the function condiion shared with the method
+```html
+const numbers = [4, 9, 16, 25, 29];
+let first = numbers.find(myFunction); //25
+let firstInd=numbers.findIndex(myFunction); //3
+function myFunction(value, index, array) {
+  return value > 18;
+}
+```
